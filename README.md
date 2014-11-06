@@ -1,6 +1,7 @@
 
+To build, clone and  -
 
-cd <install dir>
-make
+>	cd install_dir
+>	make
+> 	export BTC_HOME=~/install_dir/lib
 
-set BTC_HOME to location of generated lib directort

@@ -1,3 +1,6 @@
 
 
-set env var BTC_HOME to location of built shared objects
+cd <install dir>
+make
+
+set BTC_HOME to location of generated lib directort

@@ -1,9 +1,9 @@
 
 To build, clone and  -
 
->	cd install_dir
+>	cd btceQ
 
 >	make
 
-> 	export BTC_HOME=~/install_dir/lib
+> 	export BTC_HOME=~/install_dir/btceQ
 

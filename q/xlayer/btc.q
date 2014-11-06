@@ -1,8 +1,8 @@
-\l ../common/dcrypto.q
-\l ../common/dhttp.q
-\l ../common/dtime.q
-\l ../common/json.k
-\l ../common/dlog.q
+value "\\l ",getenv[`BTC_HOME],"/q/common/dcrypto.q"
+value "\\l ",getenv[`BTC_HOME],"/q/common/dhttp.q"
+value "\\l ",getenv[`BTC_HOME],"/q/common/dtime.q"
+value "\\l ",getenv[`BTC_HOME],"/q/common/json.k"
+value "\\l ",getenv[`BTC_HOME],"/q/common/dlog.q"
 
 \d .btc
 
@@ -142,7 +142,7 @@ getDepth:{
 	update lvl:`byte$i,ex:`btce from delete asks,bids from r	
  }
 
-getLatestNonce[];
-getLastExecID[];
+/getLatestNonce[];
+/getLastExecID[];
 
 \d .

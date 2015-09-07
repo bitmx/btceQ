@@ -5,5 +5,5 @@ To build, clone and  -
 
 >	make
 
-> 	export BTC_HOME=~/install_dir/btceQ
+> 	export BTC_HOME=<INSTALL_PATH>/btceQ
 
